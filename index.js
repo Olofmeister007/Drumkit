@@ -11,7 +11,7 @@ buttonAnimation(buttonHtml);
 document.addEventListener("keydown",function(event){
 
 makeSound(event.key);
-buttonAnimation(buttonHtml);
+buttonAnimation(event.key);
 
 })
 
